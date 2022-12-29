@@ -1,0 +1,30 @@
+#ss4{
+    background-image: url('/image/goldenbg.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#ss4 .title3{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#ss4 .title3 h3{
+    padding: 10px;
+    text-decoration: underline;
+}
+#ss4 .container{
+    text-align: center;
+}
+#ss4 .carousel-inner h5{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ss4 .carousel-inner p{
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+#ss4 .carousel-inner img{
+    border: 5px solid red
+}

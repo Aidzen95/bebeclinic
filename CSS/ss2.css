@@ -1,0 +1,47 @@
+#ss2{
+    width: 100%;
+}
+#ss2 h3{
+    text-align: center;
+}
+#ss3 .title{
+    margin-top: 50px;
+}
+#ss2 .title img{
+    margin-left: 35%;
+    display: block;
+}
+#ss2 .h1 p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 100;
+}
+#ss2 .row .col img{
+    border: 3px solid gold;
+    margin-bottom: 20px;
+    transition: 1s;
+}
+#ss2 .row .col a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+#ss2 .row .col:hover img{
+    transform: scale(1.15);
+}
+#ss2 .row .col:hover a{
+    color: red;
+}
+#ss2 .row .col{
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 990px)
+{
+    #ss2 .row .col{
+        text-align: center;
+    }
+    #ss2 .title img{
+        margin-left: 25%;
+        width: 50%;
+    }
+}

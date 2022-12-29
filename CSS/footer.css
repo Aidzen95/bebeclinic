@@ -1,0 +1,79 @@
+.col1{
+    text-align: center;
+}
+footer h3{
+    color: gold;
+    text-decoration: underline;
+}
+.col2 .phone{
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: white;
+}
+.col2 .time{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.col2 span{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: white;
+}
+footer .icons a{
+    display: block;
+    font-size: 60px;
+    padding: 1%;
+}
+.col3{
+    text-align: center;
+}
+.col1{
+    padding: 20px
+}
+.col4{
+    text-align: center;
+}
+.col4 p{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.button input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dangky input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    background: gold;
+    padding: 5%;
+    border: none;
+}
+footer{
+    background: rgb(59, 59, 59);
+    padding:2%;
+}
+@media only screen and (max-width: 990px){
+    footer .row{
+        display: block;
+    }
+    footer .row .col{
+        text-align: center;
+    }
+}
+
+.fa-brands{
+    transition: 1s;
+}
+
+.icons a:hover .fa-brands{
+    transform: scale(1.5);
+}

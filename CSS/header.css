@@ -1,0 +1,52 @@
+header{
+    background: black;
+}
+header .toggle{
+    width: 100%;
+    display: none;
+}
+header .logo{
+    text-align: left;
+}
+header .menu li{
+    list-style: none;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+header .menu{
+    display: flex;
+    justify-content: end;
+}
+header .menu a{
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight:bold;
+    text-decoration: none;
+    transition: 1s;
+}
+header .search input[type="text"]{
+    border-radius: 20px;
+    padding: 2%;
+    width: 220px;
+}
+header .search input[type="button"]{
+    border-radius: 40px;
+    padding: 2%;
+}
+header .search input{
+    margin-top: 50px;
+}
+header .menu li:hover a{
+    color: red;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 990px){
+    header .main{
+        display: none;
+    }
+    header .toggle{
+        display: contents;
+    }
+}
